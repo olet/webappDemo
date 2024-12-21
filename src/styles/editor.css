@@ -1,0 +1,65 @@
+.panel.editor {
+  width: 400px;
+  flex-shrink: 0;
+  border-left: 1px solid #1e1e1e;
+}
+
+.panel-actions button {
+  background: none;
+  border: none;
+  color: #cccccc;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.panel-actions button:hover {
+  background: #404040;
+}
+
+.editor-tabs {
+  height: 35px;
+  background: #2d2d2d;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.editor-tabs .tab {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-right: 1px solid #1e1e1e;
+}
+
+.editor-tabs .tab.active {
+  background: #1e1e1e;
+  border-bottom: 2px solid #007acc;
+}
+
+.editor-content {
+  flex: 1;
+  overflow: auto;
+  padding: 10px;
+}
+
+.code-area {
+  margin: 0;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d4d4d4;
+  white-space: pre-wrap;
+}
+
+.statusbar {
+  height: 22px;
+  background: #007acc;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+} 
